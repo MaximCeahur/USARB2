@@ -1,0 +1,201 @@
+html{
+    background: url(/img/new_background_1.png);
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    display: flex;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 20px;
+}
+
+.orar{
+    padding-left: 30px;
+    width: 1250px;
+    display: flex;
+    text-align: center;
+    vertical-align: center;
+    margin: 0 auto;
+}
+
+#first{
+    width: 40%;
+}
+
+#orarul{
+    background: #f8f8f8;
+    color: #666;
+    margin-bottom: 20px;
+    padding: 1px 1px 1px 1px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+#curs{
+    font-weight: 400;
+    font-weight: bold;
+}
+
+#flex1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex{
+    background-color: #25975A;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 38px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#input-1{
+    margin-top: 20px;
+    background: #f8f8f8;
+    height: 40px;
+    border: 1px solid #e5e5e5;
+    width: 100%;
+}
+
+#search{
+    width: 100%;
+    margin-top: 20px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    height: 100px;
+}
+
+#search button{
+    background-color: #25975A;
+    color: white;
+    text-align: left;
+    width: 100%;
+    height: 24px;
+}
+
+#p{
+    font-size: 16px;
+    padding-left: 15px;
+    margin: 0;
+}
+
+#day_of_the_week{
+    width: 100%;
+    background-color: #f8f8f8;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    height: 40px;
+    vertical-align: middle;
+    padding-left: 10px;
+}
+
+#day_of_the_week option{
+    padding-left: 10px;
+}
+
+#week{
+    width: 100%;
+    background-color: #f8f8f8;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    height: 40px;
+    vertical-align: middle;
+    padding-left: 10px;
+}
+
+#Semestru{
+    width: 100%;
+    background-color: #f8f8f8;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    height: 40px;
+    vertical-align: middle;
+    padding-left: 10px;
+}
+
+#table{
+    width: 100%;
+    height: 198px;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(8,1fr);
+    background-color: white;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.green{
+    background-color: #25975A;
+    border: 1px solid white;
+    color: white;
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+.white{
+    border: 0.5px solid black;
+}
+
+#lectii{
+    width: 100%;
+
+    color: white;
+    font-size: 12px;
+    margin-top: 20px;
+    font-style: bold;
+}
+
+#Second{
+    width: 60%;
+    margin-left: 40px;
+}
+
+#table-2{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: repeat(7,1fr);
+    justify-content: center;
+    vertical-align: middle;
+    background-color: white;
+    margin-left: 30px;
+    font-size: 16px;
+}
+
+#green2{
+    vertical-align: middle;
+    background-color: #25975A;
+    border: 1px solid white;
+    color: white;
+    min-height: 60px;
+}
+
+#white2{
+    vertical-align: middle;
+    background-color: white;
+    border: 1px solid black;
+    color: #666;
+    min-height: 60px;
+
+}
+
+#img{
+    align-items: center;
+    margin-left: 15px;
+}
+
+#text{
+    align-items: center;
+    margin-left: 15px;
+    color: white;
+    font-weight: 900;
+    font-size: 1,25rem;
+    vertical-align: middle;
+}
